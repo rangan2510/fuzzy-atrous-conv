@@ -15,3 +15,4 @@ To run your own image through our model, run the python script named "Funnelnet.
 To verify our results,please download the dataset from kaggle, at the URL: https://www.kaggle.com/andyczhao/covidx-cxr2, making sure the path of the train folder relative to the notebook is as follows: "../input/covidx-cxr2/train". Then, open the notebook named "train.ipynb". After that, please run all cells in order till cell 19 (skipping cell 16, where we train the model). 
 
 
+To train the model from scratch, please follow the above steps, except for skipping cell 14, where we load the pretrained weights, instead of cell 16. 
